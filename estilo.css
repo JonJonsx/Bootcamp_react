@@ -26,7 +26,7 @@ body{
 .Card{
   padding:10px;
   width: 268px;
-  height: 285px;
+  height: 265px;
   border-radius: 10px;
   box-shadow: 3px 3px 3px  black;
   transition: all 0.5s;
@@ -35,6 +35,15 @@ body{
 .Card:hover{
   transform: scale(1.1);
   box-shadow: 6px 6px 3px  black;
+}
+
+.sprite{
+  display: flex;
+  justify-content: center;
+}
+.sprite > img{
+  width: 138px;
+  height: 144px;
 }
 
 .buttons{
@@ -49,9 +58,6 @@ body{
   /* border: 1px solid; */
   font-size: 30px;
   font-weight: 800;
-}
-.Button:active{
-  opacity: 10px;
 }
 
 @media screen and (max-width: 980px) {
