@@ -8,6 +8,10 @@
 body{
   background-color: #34495e;
 }
+.Cards,.buttons{
+  display: flex;
+  justify-content: space-around;
+}
 
 .Container{
   width: 980px;
@@ -15,23 +19,25 @@ body{
   margin: auto;
 }
 .Cards{
-  
   height: 100%;
   width: 100%;
-  display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .Card{
   padding:10px;
   width: 268px;
   height: 285px;
   border-radius: 10px;
+  box-shadow: 3px 3px 3px  black;
+  transition: all 0.5s;
 }
+.Card:hover{
+  transform: scale(1.1);
+  box-shadow: 6px 6px 3px  black;
+}
+
 .buttons{
   width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .Button{
@@ -39,5 +45,10 @@ body{
   width: 106px;
   height: 43px;
   outline: none;
-  border: 1px solid;
+  /* border: 1px solid; */
+  font-size: 30px;
+  font-weight: 800;
+}
+.Button:active{
+  opacity: 10px;
 }

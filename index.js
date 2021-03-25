@@ -40,7 +40,7 @@ const Card = (props) => {
         <h4>{props.nome}</h4>
       </div>
       <div className="sprite">
-        <img src="" class="" alt=""/>
+        <img src="./sprite1" alt=""/>
       </div>
       <div className="votos">
         <h3>Votos: {numero}</h3>
