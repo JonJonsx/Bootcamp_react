@@ -69,9 +69,6 @@ const Container = () => {
   )
 }
 
-{/* <Contador titulo="Charmander" />
-      <Contador titulo="Bulbassaur" />
-      <Contador titulo="Squirtle" /> */}
 const App = props => (
   <React.Fragment>
     <Container />
@@ -79,4 +76,3 @@ const App = props => (
 )
 
 ReactDOM.render(React.createElement(App, { titulo: "Eu vim de props" }, null), container);
-//ReactDOM.render(App(), container);
