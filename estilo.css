@@ -2,7 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
+  color: #E5E5E5;
 }
 body{
   background-color: #34495e;
+}
+
+.Container{
+  width: 980px;
+  height: 100vh;
+  margin: auto;
+}
+.Cards{
+  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Card{
+  padding:10px;
+  width: 268px;
+  height: 285px;
+  border-radius: 10px;
+}
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Button{
+  border-radius: 10px;
+  width: 106px;
+  height: 43px;
+  outline: none;
+  border: 1px solid;
 }
