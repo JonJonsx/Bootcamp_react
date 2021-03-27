@@ -1,21 +1,21 @@
 var container = document.getElementById("app")
 
 
+const Botton = props =>{
 
-const Botton = (props) =>{
+  const { cor, opcao, objetivo } = props
 
   const cardStyle = {
-    backgroundColor : props.cor || '#f00',
-    borderColor: props.cor || '#f00',
+    backgroundColor : cor || '#f00',
+    borderColor: cor || '#f00',
   }
 
   return(
-    <button className="Button" style={cardStyle} onClick={props.opcao}>{props.objetivo}</button>
+    <button className="Button" style={cardStyle} onClick={opcao}>{objetivo}</button>
   )
 }
 
-
-const Card = (props) => {
+const Card = props => {
 
   const { cor, nome, botao1, botao2, imagem} = props
 
